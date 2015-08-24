@@ -1,0 +1,39 @@
+ol, ul
+    width: 100%
+    clear: both
+    float: none
+    padding-bottom: 1em
+
+    li
+        font-size: 1.2em
+        line-height: 1.7em
+
+        &.bh-title
+            font-weight: bold
+            border-bottom: 1px solid #ccc
+            text-transform: uppercase
+            display: table
+            margin-bottom: .4em
+            padding-bottom: .4em
+            color: #666
+
+        &.bh-item
+
+ul
+    li.bh-item:before
+        content: '–'
+        display: block
+        position: absolute
+        color: #999
+        margin-left: -1.5em
+
+ol
+    counter-reset: customlistcounter
+
+    li.bh-item:before
+        content: counter(customlistcounter)
+        counter-increment: customlistcounter
+        display: block
+        position: absolute
+        color: #999
+        margin-left: -1.5em

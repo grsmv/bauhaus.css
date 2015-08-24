@@ -1,0 +1,20 @@
+{
+  "name": "bauhaus.css",
+  "version": "0.0.1",
+  "authors": [
+    "Serhii Herasymov <serhiiherasymov@gmail.com>"
+  ],
+  "description": "Bauhaus style for web",
+  "keywords": [
+    "css"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/grsmv/bauhaus.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

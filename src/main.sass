@@ -1,0 +1,21 @@
+.bh-content
+    padding-top: 2em
+
+.bh-row
+    width: 80%
+    margin: 0 auto
+
+.bh-wide-row
+    width: 100%
+
+.bh-row, .bh-wide-row
+    float: none
+    clear: both
+    border-bottom: 1px solid #ccc
+
+    &:before, &:after
+        content: ""
+        display: table
+
+    &:after
+        clear: both
