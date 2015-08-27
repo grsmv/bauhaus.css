@@ -1,2 +1,2 @@
 watch:
-	sass --watch src/bauhaus.sass:desc/bauhaus.css
+	sass --watch src/bauhaus.sass:dist/bauhaus.css
