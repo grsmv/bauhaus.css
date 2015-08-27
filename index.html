@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Bauhaus.css</title>
     <link rel="stylesheet" href="desc/bauhaus.css"/>
 </head>
 <body>
@@ -15,7 +15,7 @@
             <div class="bh-col-8"></div>
         </div>
 
-        <div class="bh-row">
+        <div class="bh-row bh-no-border">
 
             <!-- typography -->
 
@@ -25,7 +25,7 @@
                 </div>
 
                 <div class="bh-col-8">
-                    <div class="bh-wide-row">
+                    <div class="bh-wide-row bh-no-border">
                         <div class="bh-col-2">
                             <h1>h1</h1>
                         </div>
@@ -42,19 +42,25 @@
                     </div>
 
                     <p>
-                        We were saddened to learn that filmmaker Prashant Bhargava has died, aged just 42.
-                        <a href="#/">Born and raised</a> on the South Side of Chicago, Prashant began his creative career as a
-                        graffiti artist, and studied computer science at Cornell University and theatrical
-                        directing at the Barrow Group and the Actors Studio.
+                        The first ECM release was Free at Last in 1969 by American pianist Mal Waldron. For some years 
+                        the label specialised in jazz, releasing recordings by pianists Keith Jarrett, Chick Corea, 
+                        Paul Bley, Egberto Gismonti and Art Lande; saxophonist <a href="#/">Jan Garbarek</a>, vibraphonist Gary Burton;
+                        drummers Jon Christensen and Paul Motian; guitarists Pat Metheny, <a href="#/">John
+                        Abercrombie</a>, Ralph Towner, 
+                        Bill Connors and Terje Rypdal; bassists Eberhard Weber, Arild Andersen, Charlie Haden, Barre 
+                        Phillips and <a href="#/">Dave Holland</a>; and the Art Ensemble of Chicago.
                     </p>
 
+                    <aside class="bh-aside-left">
+                        <b>Jan Garbarek</b> is a Norwegian tenor and soprano saxophonist, active in the
+                        jazz, classical, and world music genres. And this is
+                        <code>&lt;aside&gt;</code> tag contents.
+                    </aside>
                     <p>
-                        His directorial debut, Patang
-                        (The Kite), premiered at the Berlin Film Festival and his work was widely acclaimed,
-                        with film critic Roger Ebert of the Chicago Sun-Times praising him as “a poet of cinema.”
-                        Prashant’s last film was Radhe Radhe, a multi-media collaboration with Vijay Iyer, which
-                        celebrated the festival of Holi in Mathura, India, and also made allusions to Stravinsky’s
-                        Rite of Spring. Radhe Radhe was issued on DVD and Blu-ray by ECM in 2014.
+                        There is a clear link between some ECM recordings and world music, especially the folk recordings
+                        by Jan Garbarek and the work of Steve Tibbetts and Stephan Micus. Other examples of ECM's world
+                        music are records by Codona, Tunisian oud musician Anouar Brahem, Indian violinist L. Shankar,
+                        Jon Hassell, Dave Liebman and Brazilian percussionist Nana Vasconcelos.
                     </p>
                 </div>
             </div>
@@ -88,6 +94,31 @@
 
             <!-- / lists -->
 
+            <!-- forms -->
+
+            <div class="bh-wide-row bh-vert-2">
+                <div class="bh-col-4">
+                    <h3>forms</h3>
+                </div>
+                <div class="bh-col-8">
+                    <div class="bh-input">
+                        <label for="bh-sample-input">name</label>
+                        <input id="bh-sample-input" type="text" value="John Coltrane"/>
+                    </div>
+                    <div class="bh-input bh-invalid">
+                        <label for="bh-sample-input">album</label>
+                        <input id="bh-sample-input" type="text" value="Birth of the Cool"/>
+                    </div>
+                    <div class="bh-input">
+                        <label for="bh-sample-password">short bio</label>
+                        <textarea id="bh-sample-password" type="password" value="galois"></textarea>
+                        <small>You can write some short description to help your users</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- / forms -->
+
             <!-- buttons -->
 
             <div class="bh-wide-row bh-vert-2">
@@ -101,7 +132,21 @@
 
                     <small>Sending this stuff is cool and healthy</small>
 
-                    <br/><br/><br/>
+                    <br/><br/>
+
+                    <button class="bh-cancel">
+                        Cancel
+                    </button>
+
+                    <small>Cancel, delete, other danger stuff</small>
+
+                    <br/><br/>
+
+                    <button class="bh-disabled" disabled>
+                        Disabled
+                    </button>
+
+                    <!--<small></small>-->
                 </div>
             </div>
 
@@ -144,6 +189,67 @@
             </div>
 
             <!-- / table -->
+
+            <!-- timeline -->
+
+            <div class="bh-wide-row bh-vert-2">
+                <div class="bh-col-4">
+                    <h3>timeline</h3>
+                </div>
+                <div class="bh-col-8">
+                    <ul class="bh-timeline">
+                        <li class="bh-timeline-item">
+                            <header>2013, La Notte (ECM)</header>
+                            <small>
+                                The Allmusic review by Thom Jurek awarded the album 4 stars stating "Bjørnstad has
+                                always valued subtlety and suggestion over frenetic engagement on his recordings.
+                                That is certainly true here, but he is also a wise bandleader: he chose these
+                                players for their myriad abilities to dialogue kinetically, listen deeply, and
+                                respond powerfully whenever the music dictated, and he was correct in doing so across
+                                the board. La Notte is rich, deep, and wonderful".
+                            </small>
+                        </li>
+
+                        <li class="bh-timeline-item">
+                            <header>2011, Night Song (ECM)</header>
+                            <small>
+                                The All About Jazz review by John Kelman said that "Defined by stark simplicity and a
+                                quiet majesty powered more by calm than energy, both Bjørnstad and Henryson value the
+                                purity of every note, and the resultant overtones when permitted decay to their
+                                inevitable conclusion.
+                            </small>
+                        </li>
+
+                        <li class="bh-timeline-item">
+                            <header>1995, The Sea (ECM)</header>
+                            <small>
+                                The Allmusic review by Scott Yanow awarded the album 4½ stars stating "The music is
+                                generally mournful, full of space, floating and very much a soundtrack for one's
+                                thoughts... Some listeners may enjoy its introspective and peaceful nature of
+                                these performances but most will find this a bit of a bore.
+                            </small>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- / timeline -->
+
+            <!-- search bar -->
+
+            <div class="bh-wide-row bh-vert-2">
+                <div class="bh-col-4">
+                    <h3>search bar</h3>
+                </div>
+                <div class="bh-col-8">
+                    <div class="bh-search">
+                        <input type="text" placeholder="some cool query"/>
+                        <input type="submit" value="search">
+                    </div>
+                </div>
+            </div>
+
+            <!-- / search bar -->
         </div>
     </div>
 </body>

@@ -1,5 +1,5 @@
 button
-    background: none
+    background: #fff
     border: 1px solid #999
     font-size: 1em
     padding: 1em 2em
@@ -8,7 +8,34 @@ button
     font-weight: bold
     color: #999
     cursor: pointer
+    outline: none
 
     &:hover
         color: dodgerblue
         border-color: dodgerblue
+        
+    &:active
+        background: #eee
+        
+    &.bh-cancel
+        border-color: #D1200D
+        color: #D1200D
+        
+        &:hover
+            border-color: #A10F04
+            color: #A10F04
+
+        &:active
+            background: #eee
+            
+    &.bh-disabled
+        border-color: #ccc
+        color: #ccc
+        cursor: default
+
+        &:hover
+            border-color: #ccc
+            color: #ccc
+
+        &:active
+            background: #fff

@@ -1,0 +1,39 @@
+.bh-content
+    padding-top: 2em
+
+.bh-row
+    width: 80%
+    margin: 0 auto
+    position: relative
+
+.bh-wide-row
+    width: 100%
+    position: relative
+
+.bh-row, .bh-wide-row
+    float: none
+    clear: both
+    padding-bottom: 2em
+    border-bottom: 1px solid #ccc
+
+    &:before, &:after
+        content: ""
+        display: table
+
+    &:after
+        clear: both
+
+.bh-no-border
+    border: none
+
+// columns
+
+@for $i from 1 through 12
+    .bh-col-#{$i}
+        width: 100% / 12 * $i
+        float: left
+        position: relative
+
+@for $i from 1 through 3
+    .bh-vert-#{$i}
+        padding-top: $i * 1em

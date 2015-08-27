@@ -1,0 +1,75 @@
+div
+    &.bh-input
+        margin-bottom: 1.5em
+
+        small
+            padding-top: .3em
+            display: block
+            font-size: .75em
+
+        label
+            font-size: .7em
+            color: #999
+            text-transform: uppercase
+            font-weight: bold
+            margin-bottom: .7em
+            display: block
+
+        input[type=text], input[type=password], textarea
+            width: 100%
+            display: block
+
+            font-family: Helvetica, Arial
+            font-size: 1.2em
+
+            color: #333
+            background: none
+            border: none
+            border-bottom: 1px solid #ddd
+            padding-bottom: .5em
+
+            outline: none
+
+            &:focus
+                border-color: #999
+
+        &.bh-invalid
+            label
+                color: #D1200D
+
+            input[type=text], input[type=password]
+                border-bottom-color: #D1200D
+
+    &.bh-search
+        width: 100%
+        position: relative
+
+        input
+            display: block
+            float: left
+            background: #fff
+            border: 1px solid #ccc
+
+        input[type=text]
+            padding: 1em 2em
+            border-top-left-radius: 3em
+            border-bottom-left-radius: 3em
+            font-size: 1em
+            outline: none
+            margin-right: 0
+            border-right: none
+            width: calc(100% - 6em)
+
+        input[type=submit]
+            font-size: .8em
+            padding: 1.3em 2em 1.4em 1em
+            border-top-right-radius: 3em
+            border-bottom-right-radius: 3em
+            text-transform: uppercase
+            font-weight: bold
+            color: #999
+            cursor: pointer
+            outline: none
+            margin-left: 0
+            right: 0
+            position: absolute
