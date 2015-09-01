@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "IBM866";
 html, body, div, h1, h2, h3, h4, h5, span, ul, ol, li {
   padding: 0;
   margin: 0; }
@@ -27,7 +27,7 @@ body {
   float: none;
   clear: both;
   padding-bottom: 2em;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #cccccc; }
   .bh-row:before, .bh-row:after, .bh-wide-row:before, .bh-wide-row:after {
     content: "";
     display: table; }
@@ -135,25 +135,25 @@ p {
     display: block;
     width: 5em;
     height: 5px;
-    background: #333;
+    background: #333333;
     content: " ";
     margin: 1em 0 0; }
 
 a {
-  color: #333;
+  color: #333333;
   text-decoration: none;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #999999;
   padding-bottom: 0.2em; }
   a:hover {
     border-bottom-color: dodgerblue; }
 
 small {
   font-size: 0.8em;
-  color: #999; }
+  color: #999999; }
 
 aside {
   font-size: 0.8em;
-  color: #999;
+  color: #999999;
   font-style: italic;
   position: absolute;
   width: 25%; }
@@ -172,12 +172,12 @@ ol, ul {
     line-height: 1.7em; }
     ol li.bh-title, ul li.bh-title {
       font-weight: bold;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid #cccccc;
       text-transform: uppercase;
       display: table;
       margin-bottom: 0.4em;
       padding-bottom: 0.4em;
-      color: #666; }
+      color: #666666; }
 
 ol {
   counter-reset: customlistcounter; }
@@ -186,30 +186,30 @@ ol {
     counter-increment: customlistcounter;
     display: block;
     position: absolute;
-    color: #999;
+    color: #999999;
     margin-left: -1.5em; }
 
 ul li.bh-item:before {
   content: "–";
   display: block;
   position: absolute;
-  color: #999;
+  color: #999999;
   margin-left: -1.5em; }
 ul.bh-timeline header {
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: bold;
-  color: #666; }
+  color: #666666; }
 ul.bh-timeline li.bh-timeline-item {
   padding-top: 1em;
   padding-left: 2em;
-  border-left: 1px solid #ccc; }
+  border-left: 1px solid #cccccc; }
   ul.bh-timeline li.bh-timeline-item:before {
     content: "";
     display: block;
     width: 0.5em;
     height: 0.5em;
-    background: #ccc;
+    background: #cccccc;
     border-radius: 2em;
     position: absolute;
     margin: 0.6em 0 0 -2.3em;
@@ -223,7 +223,7 @@ ul.bh-timeline li.bh-timeline-item {
       height: calc(100% - 1.6em);
       width: 20px;
       position: absolute;
-      background: #fff;
+      background: white;
       display: block;
       content: "";
       margin-left: -2.3em;
@@ -233,54 +233,54 @@ ul.bh-timeline:before {
   height: 1.9em;
   width: 20px;
   position: absolute;
-  background: #fff;
+  background: white;
   display: block;
   content: "";
   margin-left: -1px; }
 
 .bh-gray {
-  color: #999; }
+  color: #999999; }
   .bh-gray a {
-    color: #999; }
+    color: #999999; }
 
 .bh-light-gray {
-  color: #ccc; }
+  color: #cccccc; }
   .bh-light-gray a {
-    color: #ccc; }
+    color: #cccccc; }
 
 button {
-  background: #fff;
-  border: 1px solid #999;
+  background: white;
+  border: 1px solid #999999;
   font-size: 1em;
   padding: 1em 2em;
   border-radius: 3em;
   text-transform: uppercase;
   font-weight: bold;
-  color: #999;
+  color: #999999;
   cursor: pointer;
   outline: none; }
   button:hover {
     color: dodgerblue;
     border-color: dodgerblue; }
   button:active {
-    background: #eee; }
+    background: #eeeeee; }
   button.bh-cancel {
-    border-color: #D1200D;
-    color: #D1200D; }
+    border-color: #d1200d;
+    color: #d1200d; }
     button.bh-cancel:hover {
-      border-color: #A10F04;
-      color: #A10F04; }
+      border-color: #a10f04;
+      color: #a10f04; }
     button.bh-cancel:active {
-      background: #eee; }
+      background: #eeeeee; }
   button.bh-disabled {
-    border-color: #ccc;
-    color: #ccc;
+    border-color: #cccccc;
+    color: #cccccc;
     cursor: default; }
     button.bh-disabled:hover {
-      border-color: #ccc;
-      color: #ccc; }
+      border-color: #cccccc;
+      color: #cccccc; }
     button.bh-disabled:active {
-      background: #fff; }
+      background: white; }
 
 table.bh-table {
   width: 100%;
@@ -291,12 +291,12 @@ table.bh-table {
     font-size: 0.8em;
     text-transform: uppercase;
     text-align: left;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #cccccc;
     padding-bottom: 1em; }
   table.bh-table tbody tr td {
     font-size: 1.2em;
     padding: 0.7em 0;
-    border-bottom: 1px solid #ccc; }
+    border-bottom: 1px solid #cccccc; }
   table.bh-table tbody tr:last-of-type td {
     border-bottom: none; }
 
@@ -308,7 +308,7 @@ div.bh-input {
     font-size: 0.75em; }
   div.bh-input label {
     font-size: 0.7em;
-    color: #999;
+    color: #999999;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 0.7em;
@@ -318,26 +318,26 @@ div.bh-input {
     display: block;
     font-family: Helvetica, Arial;
     font-size: 1.2em;
-    color: #333;
+    color: #333333;
     background: none;
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dddddd;
     padding-bottom: 0.5em;
     outline: none; }
     div.bh-input input[type=text]:focus, div.bh-input input[type=password]:focus, div.bh-input textarea:focus {
-      border-color: #999; }
+      border-color: #999999; }
   div.bh-input.bh-invalid label {
-    color: #D1200D; }
+    color: #d1200d; }
   div.bh-input.bh-invalid input[type=text], div.bh-input.bh-invalid input[type=password] {
-    border-bottom-color: #D1200D; }
+    border-bottom-color: #d1200d; }
 div.bh-search {
   width: 100%;
   position: relative; }
   div.bh-search input {
     display: block;
     float: left;
-    background: #fff;
-    border: 1px solid #ccc; }
+    background: white;
+    border: 1px solid #cccccc; }
   div.bh-search input[type=text] {
     padding: 1em 2em;
     border-top-left-radius: 3em;
@@ -354,11 +354,9 @@ div.bh-search {
     border-bottom-right-radius: 3em;
     text-transform: uppercase;
     font-weight: bold;
-    color: #999;
+    color: #999999;
     cursor: pointer;
     outline: none;
     margin-left: 0;
     right: 0;
     position: absolute; }
-
-/*# sourceMappingURL=bauhaus.css.map */
