@@ -1,0 +1,12 @@
+Development
+-----------
+
+Please make sure that you have SASS installed. 
+Un UNIX environment you can fire up SASS compiler with `make` command. 
+In Windows run this is console:
+  $ sass --watch src/bauhaus.sass:dist/bauhaus.css
+  
+Or just use any UI helpers for SASS like Scout [1] or Koala [2]
+
+[1] - http://mhs.github.io/scout-app/
+[2] - http://koala-app.com
